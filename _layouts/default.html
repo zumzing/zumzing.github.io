@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+        <!--  bootstrap css  -->
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <header>
+              <div class="navbar navbar-fixed-top">
+                <div class="navbar-inner">
+                  <a href="/">{{ site.name }}</a>
+                </div>
+              </div>
+            </header>
+            <main>
+
+              <div class="breadcrumb"><a class="extra" href="/">home</a></div>
+     
+                {{ content }}
+
+            </main>
+            <footer>
+              <div class="contact">
+                <p>
+                  ZUMZING LLC<br />
+                  takealook@zumzing.com
+                </p>
+              </div>
+              <div class="contact">
+                <p>
+                  <a href="http://github.com/zumzing/">github.com/zumzing</a><br />
+                  <a href="http://twitter.com/zumzing/">twitter.com/zumzing</a><br />
+                </p>
+              </div>
+            </footer>
+        </div> <!-- /container -->
+        <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    </body>
+</html>
