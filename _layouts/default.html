@@ -13,20 +13,20 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/zumzing.carousel.css">
     </head>
     <body>
 
         <div class="container">
             <header>
-              <div class="navbar navbar-fixed-top">
-                <div class="navbar-inner">
-                  <a href="/">{{ site.name }}</a>
-                </div>
-              </div>
+              <ul class="nav nav-pills">
+                <li><a href="/">Home</a></li>
+                <li><a href="/work.html">Work</a></li>
+                <li><a href="/posts">Blog</a></li>
+                <li><a href="/about.html">About</a></li>
+              </ul>
             </header>
             <main>
-
-              <div class="breadcrumb"><a class="extra" href="/">home</a></div>
      
                 {{ content }}
 
@@ -46,6 +46,11 @@
               </div>
             </footer>
         </div> <!-- /container -->
+        <script type="text/javascript" src="/js/modernizr.canvas.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
         <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/js/Tween.js"></script>
+        <script type="text/javascript" src="/js/zumzing.carousel.js"></script>
+        <script type="text/javascript" src="/js/z3.js"></script>
     </body>
 </html>

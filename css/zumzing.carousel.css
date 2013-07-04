@@ -1,0 +1,58 @@
+#carousel { 
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 820px;
+	height: 320px;
+	position: relative;
+	background-color: white;
+	-moz-box-shadow: 0px 3px 5px #a5a5a5;
+	-webkit-box-shadow: 0px 3px 5px #a5a5a5;
+	box-shadow: 0px 3px 5px #a5a5a5;
+}
+
+#carousel ul {
+	margin: 0;
+}
+
+#my-canvas {
+	
+}
+#carousel-prev {
+	position: absolute;
+	top: 270px;
+	left: 1px;
+	width: 40px;
+	height: 50px !important;
+	background: #fff url('../img/previous-arrow.png') no-repeat;
+	background-position: center center;
+	z-index: 10;
+	border-right: 1px solid #cfcfcf;
+	border-bottom-left-radius: 5px;
+}
+#carousel-next {
+	position: absolute;
+	top: 270px;
+	right: 1px;
+	width: 40px;
+	height: 50px !important;
+	background: #fff url('../img/next-arrow.png') no-repeat;
+	background-position: center center;
+	z-index: 10;
+	border-left: 1px solid #cfcfcf;
+	border-bottom-right-radius: 5px;
+}
+.carousel-items {
+	visibility: hidden;
+}
+
+#carousel-caption {
+	position: absolute;
+	left: 60px;
+	top: 288px;
+	z-index: 10;
+	font-size: 14px;
+	color: #333333;
+	line-height: 18px;
+}
