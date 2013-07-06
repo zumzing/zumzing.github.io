@@ -14,9 +14,11 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/zumzing.carousel.css">
+
+        <!-- TypeKit -->
+        <script type="text/javascript" src="https://use.typekit.com/tgx7prf.js"></script>
     </head>
     <body>
-
         <div class="container">
             <header>
               <ul class="nav nav-pills">
@@ -26,7 +28,7 @@
                 <li><a href="/about.html">About</a></li>
               </ul>
             </header>
-            <main>
+            <main id="content-wrapper">
      
                 {{ content }}
 
@@ -52,5 +54,10 @@
         <script type="text/javascript" src="/js/Tween.js"></script>
         <script type="text/javascript" src="/js/zumzing.carousel.js"></script>
         <script type="text/javascript" src="/js/z3.js"></script>
+        <script type="text/javascript">
+        <!--//--><![CDATA[//><!--
+          try{Typekit.load();}catch(e){}
+        //--><!]]>
+        </script>
     </body>
 </html>

@@ -1,8 +1,5 @@
 $(function(){
-	if($("#cycle").size() > 0){
-		$("#cycle").cycle();
-	}
-	
+
 	if(Modernizr.canvas && $('.carousel-item').size() > 0) {
 		$('.carousel-item').carousel({autoplay: false, carouselWidth: '820px', carouselHeight: '270px'});
 		$('.carousel-items').css('display', 'none');
