@@ -28,7 +28,7 @@ h1 { font-weight: 100; }
 .hunit6 { height: 540px; }
 
 .row-fluid { margin: 36px 0px; }
-.row-fluid.padded { margin: 72px 0px; }
+.row-fluid.padded { margin-bottom: 60px; }
 .row-fluid.dark { 
   background-color: rgb(32,32,32); 
   color: #ffffff; 
@@ -53,3 +53,6 @@ h1 { font-weight: 100; }
 
 dd { margin-left: 0; }
 .dark dt { color: #b94a48; }
+
+#logo { margin-right: 0px; }
+#logo img { height: 78%; width: 78%; }
